@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="/Survey Form/style.css">
+</head>
+<body>
+    <form action="">
+        <h3>Name <span class="required-star">*</span></h3>
+        <div class="nameall">
+            <div class="firstname">
+                <input type="text" id="first" name="firstName" required>
+                <h5>First</h5>
+            </div>
+            <div class="lastname">
+                <input type="text" id="last" name="lastName" required>
+                <h5>Last</h5>
+            </div>
+        </div>
+        <br>
+
+        <div><h3 id="email-1">Email <span class="required-star">*</span></h3></div>
+        <div class="email">
+            <input type="text" id="emailbox" name="ebox" required>
+        </div>
+
+        <div><h5>Your Experience <span class="required-star">*</span></h5></div>
+        <div class="rating">
+            <span class="star checked">&#9733;</span>
+            <span class="star checked">&#9733;</span>
+            <span class="star checked">&#9733;</span>
+            <span class="star checked">&#9733;</span>
+            <span class="star checked">&#9733;</span>
+        </div>
+        <p>Overall how would you rate your experience with us? <span class="required-star">*</span></p>
+
+        <h5>How satisfied are you with <span class="required-star">*</span></h5>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Very Satisfied</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Very Satisfied</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="greycolor">
+                    <td>Purchase </td>
+                    <td><input type="radio" name="purchase" value="very_satisfied" required></td>
+                    <td><input type="radio" name="purchase" value="unsatisfied" required></td>
+                    <td><input type="radio" name="purchase" value="neutral" required></td>
+                    <td><input type="radio" name="purchase" value="satisfied" required></td>
+                    <td><input type="radio" name="purchase" value="very_satisfied" required></td>
+                </tr>
+                <tr>
+                    <td>Service</td>
+                    <td><input type="radio" name="service" value="very_satisfied" required></td>
+                    <td><input type="radio" name="service" value="unsatisfied" required></td>
+                    <td><input type="radio" name="service" value="neutral" required></td>
+                    <td><input type="radio" name="service" value="satisfied" required></td>
+                    <td><input type="radio" name="service" value="very_satisfied" required></td>
+                </tr>
+                <tr class="greycolor">
+                    <td>Company Overall</td>
+                    <td><input type="radio" name="company" value="very_satisfied" required></td>
+                    <td><input type="radio" name="company" value="unsatisfied" required></td>
+                    <td><input type="radio" name="company" value="neutral" required></td>
+                    <td><input type="radio" name="company" value="satisfied" required></td>
+                    <td><input type="radio" name="company" value="very_satisfied" required></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h5>How likely are you to <span class="required-star">*</span></h5>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Very Satisfied</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Very Satisfied</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="greycolor">
+                    <td>Buy from us again</td>
+                    <td><input type="radio" name="purchase" value="very_satisfied" required></td>
+                    <td><input type="radio" name="purchase" value="unsatisfied" required></td>
+                    <td><input type="radio" name="purchase" value="neutral" required></td>
+                    <td><input type="radio" name="purchase" value="satisfied" required></td>
+                    <td><input type="radio" name="purchase" value="very_satisfied" required></td>
+                </tr>
+                <tr>
+                    <td>Recommended Our product to Others</td>
+                    <td><input type="radio" name="service" value="very_satisfied" required></td>
+                    <td><input type="radio" name="service" value="unsatisfied" required></td>
+                    <td><input type="radio" name="service" value="neutral" required></td>
+                    <td><input type="radio" name="service" value="satisfied" required></td>
+                    <td><input type="radio" name="service" value="very_satisfied" required></td>
+                </tr>
+                <tr class="greycolor">
+                    <td >Recommended Our Company to Others</td>
+                    <td><input type="radio" name="company" value="very_satisfied" required></td>
+                    <td><input type="radio" name="company" value="unsatisfied" required></td>
+                    <td><input type="radio" name="company" value="neutral" required></td>
+                    <td><input type="radio" name="company" value="satisfied" required></td>
+                    <td><input type="radio" name="company" value="very_satisfied" required></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 id="add">Additional Comments and Suggestions</h3>
+        <div>
+            <textarea id="additionalComments" name="additionalComments" rows="6" cols="75"></textarea>
+        </div>
+        <br>
+
+        <button id="subbutton">Submit</button>
+    </form>
+
+</form>
+</body>
+</html>

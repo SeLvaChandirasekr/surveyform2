@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.nameall {
+    display: flex;
+    gap: 20px; /* Adjust the gap between the name fields */
+}
+
+.firstname,
+.lastname {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstname h5,
+.lastname h5 {
+    margin: 5px 0;
+}
+
+.greycolor {
+    background-color: rgba(126, 118, 118, 0.473);
+}
+
+#first {
+    margin-top: -15px;
+}
+
+#last {
+    margin-top: -15px;
+}
+
+#emailbox {
+    width: 380px;
+}
+
+.rating {
+    color: gold;
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+.greycolor {
+    border: none;
+}
+
+.required-star {
+    color: red;
+    margin-left: 1px;
+}
+
+#subbutton {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 15px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+#add{
+    margin-top: 10px;
+}
+#additionalComments{
+    margin-top: -15px;
+}
+#subbutton{
+    margin-top: -15px;
+
+}
